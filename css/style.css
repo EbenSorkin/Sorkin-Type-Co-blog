@@ -234,7 +234,7 @@ body{width:100%;}
 .divide-top{border-top: 1px solid #ccc;padding-top: 2em;margin-top: 1.5em; }
 
 .mright{ margin-right: 3em;}
-.mleft{ margin-left: 3em;}
+.mleft{ margin-left: 3em; font-size: .75em;}
 .mtop{ margin-top: 3em;}
 .mbottom{ margin-bottom: 3em;}
 .halfmright{ margin-right: 1.5em;}
