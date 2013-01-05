@@ -20,7 +20,7 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 
 
 html, button, input, select, textarea {
-	font-family: "Armata", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-family: "Armata", Calibri, "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 	font-weight: 400; /* normal */
 	color: #555; 
 	font-smooth:always;
@@ -60,7 +60,7 @@ sub, sup{font-size:75%; line-height:0; position:relative; vertical-align:baselin
 sup{top:-0.5em}
 sub{bottom:-0.25em}
 dd{margin:0 0 0 40px} dt{font-weight: 700;}
-ul, ol{list-style:none; list-style-image:none; margin:0; padding:0;}
+ul, ol{list-style:none; list-style-image:none; margin:0em; padding:0;}
 img{border:0; -ms-interpolation-mode:bicubic; vertical-align:middle}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
@@ -80,6 +80,7 @@ textarea{overflow:auto; vertical-align:top; resize:vertical}
 table{border-collapse:collapse; border-spacing:0}
 td{vertical-align:top}
 .chromeframe { margin: 1em 0; background: red; color: black; padding: 1em; }
+
 
 
 
@@ -235,7 +236,7 @@ body{width:100%;}
 
 .mright{ margin-right: 3em;}
 .mleft{ margin-left: 3em; font-size: .75em;}
-.mtop{ margin-top: 3em;}
+.mtop{ margin-top: 1em;}
 .mbottom{ margin-bottom: 3em;}
 .halfmright{ margin-right: 1.5em;}
 .halfmleft{ margin-left: 1.5em;}
@@ -299,8 +300,8 @@ header .arrow {color: #999; font-style: italic;}
 ------------------------------------------------------------- */
 footer  { color: #555; margin-bottom: 3em; }
 footer nav ul { float: right; overflow: hidden; }
-footer a {color: #999;}
-footer li { float: left; margin-right: 1em; padding-right: 1em; border-right: 1px solid #DDD; font-size: 0.8em; }
+footer a {color: #777;}
+footer li { float: left; margin-right: 1em; padding-right: 1em; border-right: 1px solid #DDD; font-size: 0.9em; }
 footer li:last-child { margin-right: 0; padding-right: 0; border-right: none; }
 .up a { display: block; text-align: center; margin: 0 auto; }
 
